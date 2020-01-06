@@ -74,5 +74,5 @@ if (require.main === module) {
     program.help();
   }
 } else {
-  modules.exports = new Generator();
+  module.exports = new Generator();
 }
