@@ -1,0 +1,36 @@
+{
+  "name": "lorem-marxum",
+  "version": "1.0.0",
+  "description": "dummy text generator for the people ☭",
+  "main": "index.js",
+  "bin": {
+    "marxum": "index.js"
+  },
+  "scripts": {
+    "dist": "mkdir -p out && pkg . --out-path out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/emrose/lorem-marxum.git"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "marx",
+    "dummy",
+    "text",
+    "generator"
+  ],
+  "author": "Emery Rose Hall <emery@deadcanaries.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/emrose/lorem-marxum/issues"
+  },
+  "homepage": "https://gitlab.com/emrose/lorem-marxum#readme",
+  "dependencies": {
+    "commander": "^4.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.2"
+  }
+}
