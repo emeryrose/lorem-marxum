@@ -17,11 +17,11 @@ cus it's fuckin funny you bourgie pig.
 how?
 ----
 
-install with npm or download a binary here somewhere. click buttons until you 
-find it.
+install it with npm. or buy a hardcopy from amazon where the rest of us
+communists get our books.
 
 ```
-npm install -g lorem-marxum
+npm install -g https://gitlab.com/emrose/lorem-marxum
 ```
 
 cool, now you can use your expensive laptop built by exploited workers to print 
