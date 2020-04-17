@@ -12,8 +12,8 @@ const path = require('path');
 
 class Generator {
 
-  constructor() {
-    this._source = fs.readFileSync(path.join(__dirname, 'source.txt'))
+  constructor(src = 'karl') { // (also "emma")
+    this._source = fs.readFileSync(path.join(__dirname, `txt/${src}.txt`))
       .toString('utf8');
     this._parts = this._source.match(/[^\.!\?]+[\.!\?]+/g).map(s => s.trim());
   }
@@ -60,9 +60,10 @@ if (require.main === module) {
   program.option('-w, --words <n>', 'number words to generate');
   program.option('-s, --sentences <n>', 'number sentences to generate');
   program.option('-a, --all');
+  program.option('--voice <name>', 'specify the text source');
   program.parse(process.argv);
 
-  const generator = new Generator();
+  const generator = new Generator(program.voice);
 
   if (program.all) {
     process.stdout.write(generator.all());
