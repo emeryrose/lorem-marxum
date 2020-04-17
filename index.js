@@ -76,4 +76,6 @@ if (require.main === module) {
   }
 } else {
   module.exports = new Generator();
+  module.exports.karl = new Generator('karl');
+  module.exports.emma = new Generator('emma');
 }
