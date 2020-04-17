@@ -17,19 +17,14 @@ class SlackBot {
         'debt',
         'capitalism',
         'landlord',
-        'property',
         'money',
         'expensive',
         'rent',
-        'homeless',
         'karl',
         'marx',
         'mortgage',
         'billionaire',
-        'rich',
         'one percent',
-        'corporation',
-        'authoritarian',
         'business',
         'commercial',
         'alienation',
@@ -38,15 +33,26 @@ class SlackBot {
         'investor',
         'economy',
         'communism',
+      ],
+      emma: [
+        'women',
+        'woman',
+        'feminism',
+        'patriarchy',
+        'birth control',
+        'roe v wade',
+        'mansplain',
+        'sex worker'
+      ],
+      all: [
+        'homeless',
+        'corporation',
+        'rich',
+        'property',
+        'authoritarian',
         'bougie',
         'bourgeoisie',
         'education'
-      ],
-      emma: [
-
-      ],
-      all: [
-
       ]
     };
   }

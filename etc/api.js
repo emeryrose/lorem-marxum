@@ -24,7 +24,7 @@ config.Bots.forEach(options => {
     } else if (req.query.words) {
       text = bot._lorem.words(parseInt(req.query.words));
     } else {
-      text = bot.lorem.all();
+      text = bot._lorem.all();
     }
 
     res.send(text);
