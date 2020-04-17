@@ -35,6 +35,8 @@ class SlackBot {
         'communism',
       ],
       emma: [
+        'emma',
+        'goldman',
         'women',
         'woman',
         'feminism',
