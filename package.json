@@ -1,6 +1,6 @@
 {
   "name": "lorem-marxum",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "dummy text generator for the people ☭",
   "main": "index.js",
   "bin": {
