@@ -7,7 +7,8 @@
     "marxum": "index.js"
   },
   "scripts": {
-    "dist": "mkdir -p out && pkg . --out-path out"
+    "dist": "mkdir -p out && pkg . --out-path out",
+    "start": "node etc/api.js"
   },
   "repository": {
     "type": "git",
