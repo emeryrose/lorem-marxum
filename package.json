@@ -29,8 +29,6 @@
   },
   "homepage": "https://gitlab.com/emrose/lorem-marxum#readme",
   "dependencies": {
-    "@slack/events-api": "^2.3.2",
-    "@slack/web-api": "^5.8.0",
     "commander": "^4.1.0",
     "knuth-shuffle": "^1.0.8"
   },
